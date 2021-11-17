@@ -127,7 +127,7 @@ main h1 {
 }
 
 .food-item h2 {
-    margin: 0 1rem 0;
+    margin: 0 1rem 1rem;
 }
 
 .food-item img {
