@@ -30,6 +30,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  display: none;
 }
 
 .menu-btn span {
@@ -125,6 +126,10 @@ main h1 {
   overflow: hidden;
 }
 
+.food-item h2 {
+    margin: 0 1rem 0;
+}
+
 .food-item img {
   height: 15rem;
   width: 100%;
@@ -158,5 +163,8 @@ main h1 {
 
   #latest-products ul {
     grid-template-columns: 100%;
+  }
+  .menu-btn {
+      display: flex;
   }
 }
