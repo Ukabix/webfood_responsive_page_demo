@@ -94,17 +94,15 @@ main h1 {
 }
 
 @media (max-width: 48rem) {
-    #latest-products ul {
-        grid-template-columns: 100%;
-    }
-    main h1 {
-        font-size: 1.5rem;
-      }
-      #main-header ul {
-        list-style: none;
-        display: none;
-        margin: 0;
-        padding: 0;
-      }
-}
+   #main-header ul {
+    display: none;
+  }
+  
+  main h1 {
+    font-size: 1.5rem;
+  }
 
+  #latest-products ul {
+    grid-template-columns: 100%;
+  }
+}
